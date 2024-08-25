@@ -1,0 +1,33 @@
+<aiml version="2.0">
+    <!-- Detailed job role information -->
+    <category>
+        <pattern>SOFTWARE DEVELOPER</pattern>
+        <template>A Software Developer designs, develops, and maintains software applications. They use programming languages to build solutions for various needs. Would you like more information or resources about this role? Type Software Developer Info!</template>
+    </category>
+
+    <category>
+        <pattern>DATA SCIENTIST</pattern>
+        <template>A Data Scientist analyzes and interprets complex data to help organizations make data-driven decisions. They use statistical tools and machine learning techniques. Let me know if you need more details or resources! Type Data Scientist Info for more resources!</template>
+    </category>
+
+    <category>
+        <pattern>CYBERSECURITY ANALYST</pattern>
+        <template>A Cybersecurity Analyst protects an organization's systems and networks from security breaches and cyber-attacks. They implement security measures and respond to incidents. Ask if you need further details or resources! Type Cybersecurity Analyst Info for more resources!</template>
+    </category>
+
+    <category>
+        <pattern>SYSTEMS ANALYST</pattern>
+        <template>A Systems Analyst evaluates and improves computer systems to meet business requirements. They work on system design, analysis, and implementation. Let me know if you want additional details or resources! Type Systems Analyst Info for more resources!</template>
+    </category>
+
+    <category>
+        <pattern>NETWORK ENGINEER</pattern>
+        <template>A Network Engineer designs, configures, and manages computer networks. They ensure network reliability and efficiency and troubleshoot network issues. Ask if you need more information or resources! Type Network Engineer Info for more resources!</template>
+    </category>
+
+    <!-- Invalid Input Handling -->
+    <category>
+        <pattern>WHAT DOES A *</pattern>
+        <template>I didn't catch that role. Please specify one of these: Software Developer, Data Scientist, Cybersecurity Analyst, Systems Analyst, or Network Engineer. For example, "What does a Data Scientist do?"</template>
+    </category>
+</aiml>

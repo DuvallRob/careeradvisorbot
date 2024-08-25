@@ -1,0 +1,28 @@
+<aiml version="2.0">
+    <!-- General job options -->
+    <category>
+        <pattern>JOBS</pattern>
+        <pattern>JOB</pattern>
+        <pattern>CAREERS</pattern>
+        <pattern>CAREER</pattern>
+        <template>Here are some career options for a computer science degree:
+            - Software Developer
+            - Data Scientist
+            - Cybersecurity Analyst
+            - Systems Analyst
+            - Network Engineer
+            If you want more details about any of these roles, just let me know or ask for "job links" to explore resources!</template>
+    </category>
+
+    <!-- Detailed job role -->
+    <category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>Sorry, I didn't catch that specific role. Please ask about one of these roles: Software Developer, Data Scientist, Cybersecurity Analyst, Systems Analyst, or Network Engineer. For example, "Tell me about a Software Developer".</template>
+    </category>
+
+    <!-- Invalid Input Handling -->
+    <category>
+        <pattern>*</pattern>
+        <template>I'm not sure about that. You can ask me about various job roles or general career advice in computer science. For example, try asking "Tell me about Data Scientist" or "What jobs can I get with a computer science degree?"</template>
+    </category>
+</aiml>

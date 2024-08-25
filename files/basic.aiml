@@ -1,0 +1,57 @@
+<aiml version="2.0">
+    <!-- Greeting -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you with your career in computer science today? You can ask about specific job roles or general career advice.</template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! What can I help you with regarding computer science careers? Feel free to ask about job roles or career guidance.</template>
+    </category>
+
+    <!-- Farewell -->
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>Goodbye! If you have any more questions, feel free to ask. Have a great day!</template>
+    </category>
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>You're welcome! If you need more information, just let me know. I'm here to help!</template>
+    </category>
+
+    <!-- General job inquiries -->
+    <category>
+        <pattern>TELL ME ABOUT JOBS</pattern>
+        <template>With a computer science degree, you can pursue various roles such as Software Developer, Data Scientist, Cybersecurity Analyst, Systems Analyst, and Network Engineer. Would you like more details about any specific role?</template>
+    </category>
+
+    <category>
+        <pattern>WHAT JOBS CAN I GET WITH A COMPUTER SCIENCE DEGREE</pattern>
+        <template>There are many career options available. Some examples include:
+            - Software Developer
+            - Data Scientist
+            - Cybersecurity Analyst
+            - Systems Analyst
+            - Network Engineer
+            Let me know if you'd like more information about any of these roles!</template>
+    </category>
+
+    <category>
+        <pattern>ROLES</pattern>
+        <template>Here are some roles you can consider with a computer science degree:
+            - Software Developer
+            - Data Scientist
+            - Cybersecurity Analyst
+            - Systems Analyst
+            - Network Engineer
+            If you want to know more about a specific role, just ask!</template>
+    </category>
+
+    <!-- Invalid Input -->
+    <category>
+        <pattern>*</pattern>
+        <template>It seems I didn't understand that. Please ask about specific job roles or career guidance. For example, you can ask "Tell me about Data Scientist" or "What jobs can I get with a computer science degree?"</template>
+    </category>
+</aiml>

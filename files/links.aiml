@@ -1,0 +1,57 @@
+<aiml version="2.0">
+    <!-- Specific Job Details -->
+    <category>
+        <pattern>SOFTWARE DEVELOPER INFO</pattern>
+        <template>For more information about becoming a Software Developer, check out these resources:
+            - [Link to Software Developer Resources]</template>
+    </category>
+
+    <category>
+        <pattern>DATA SCIENTIST INFO</pattern>
+        <template>For more information about becoming a Data Scientist, check out these resources:
+            - [Link to Data Scientist Resources]</template>
+    </category>
+
+    <category>
+        <pattern>CYBERSECURITY ANALYSTINFO</pattern>
+        <template>For more information about becoming a Cybersecurity Analyst, check out these resources:
+            - [Link to Cybersecurity Analyst Resources]</template>
+    </category>
+
+    <category>
+        <pattern>SYSTEMS ANALYST INFO</pattern>
+        <template>For more information about becoming a Systems Analyst, check out these resources:
+            - [Link to Systems Analyst Resources]</template>
+    </category>
+
+    <category>
+        <pattern>NETWORK ENGINEER INFO</pattern>
+        <template>For more information about becoming a Network Engineer, check out these resources:
+            - [Link to Network Engineer Resources]</template>
+    </category>
+
+    <!-- General Jobs Link -->
+    <category>
+        <pattern>JOB LINKS</pattern>
+        <template>Explore more about computer science careers:
+            - [Link to Software Developer Resources]
+            - [Link to Data Scientist Resources]
+            - [Link to Cybersecurity Analyst Resources]
+            - [Link to Systems Analyst Resources]
+            - [Link to Network Engineer Resources]
+            Let me know if you need specific information or additional resources!</template>
+    </category>
+
+    <!-- Invalid Input Handling -->
+    <category>
+        <pattern>*</pattern>
+        <template>I didn't quite catch that. For information on computer science careers, you can ask about specific roles or check out these resources:
+            - [Link to Software Developer Resources]
+            - [Link to Data Scientist Resources]
+            - [Link to Cybersecurity Analyst Resources]
+            - [Link to Systems Analyst Resources]
+            - [Link to Network Engineer Resources]
+            - [Link to Network Engineer Resources]
+            Let me know if you need help with anything else!</template>
+    </category>
+</aiml>
