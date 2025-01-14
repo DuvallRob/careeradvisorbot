@@ -1,28 +1,27 @@
-<aiml version="2.0">
-    <!-- General job options -->
+ <aiml version="2.0">
+     <!-- Specific Job Role Details -->
     <category>
-        <pattern>JOBS</pattern>
-        <pattern>JOB</pattern>
-        <pattern>CAREERS</pattern>
-        <pattern>CAREER</pattern>
-        <template>Here are some career options for a computer science degree:
-            - Software Developer
-            - Data Scientist
-            - Cybersecurity Analyst
-            - Systems Analyst
-            - Network Engineer
-            If you want more details about any of these roles, just let me know or ask for "job links" to explore resources!</template>
+        <pattern>SOFTWARE DEVELOPER</pattern>
+        <template>A Software Developer designs, develops, and maintains software applications. Would you like more information or resources about this role? Type 'Software Developer Info'.</template>
     </category>
 
-    <!-- Detailed job role -->
     <category>
-        <pattern>TELL ME ABOUT *</pattern>
-        <template>Sorry, I didn't catch that specific role. Please ask about one of these roles: Software Developer, Data Scientist, Cybersecurity Analyst, Systems Analyst, or Network Engineer. For example, "Tell me about a Software Developer".</template>
+        <pattern>DATA SCIENTIST</pattern>
+        <template>A Data Scientist analyzes and interprets complex data to help organizations make data-driven decisions. Let me know if you need more details or resources! Type 'Data Scientist Info' for more resources!</template>
     </category>
 
-    <!-- Invalid Input Handling -->
     <category>
-        <pattern>*</pattern>
-        <template>I'm not sure about that. You can ask me about various job roles or general career advice in computer science. For example, try asking "Tell me about Data Scientist" or "What jobs can I get with a computer science degree?"</template>
+        <pattern>CYBERSECURITY ANALYST</pattern>
+        <template>A Cybersecurity Analyst protects an organization's systems and networks from cyber-attacks. Ask if you need further details or resources! Type 'Cybersecurity Analyst Info' for more resources!</template>
+    </category>
+
+    <category>
+        <pattern>SYSTEMS ANALYST</pattern>
+        <template>A Systems Analyst evaluates and improves computer systems to meet business requirements. Type 'Systems Analyst Info' for more resources!</template>
+    </category>
+
+    <category>
+        <pattern>NETWORK ENGINEER</pattern>
+        <template>A Network Engineer designs, configures, and manages computer networks. Type 'Network Engineer Info' for more resources!</template>
     </category>
 </aiml>

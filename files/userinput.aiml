@@ -1,28 +1,14 @@
 <aiml version="2.0">
-    <category>
-        <pattern>INTERESTED IN JOBS</pattern>
-        <template>That's great! Here are some job roles you might be interested in:
-            - Software Developer
-            - Data Scientist
-            - Cybersecurity Analyst
-            - Systems Analyst
-            - Network Engineer
-            Let me know if you want more details about any of these roles or resources!</template>
-    </category>
-
-    <category>
-        <pattern>NEED HELP</pattern>
-        <template>Sure! I can provide information on various job roles or career paths in computer science. What specifically do you need help with?</template>
-    </category>
-
-    <category>
-        <pattern>CAN YOU TELL ME ABOUT JOBS</pattern>
-        <template>Yes, I can provide details about different career roles in computer science. For instance, you can ask about Software Developer, Data Scientist, Cybersecurity Analyst, Systems Analyst, or Network Engineer. Alternatively, you can ask for "job links" to explore resources.</template>
-    </category>
-
-    <!-- Invalid Input Handling -->
+ <!-- Invalid Input Handling with Loop -->
     <category>
         <pattern>*</pattern>
-        <template>It looks like I didn't understand that. Please ask about specific job roles or general career guidance. For example, you could ask "Tell me about Data Scientist" or "What jobs can I get with a computer science degree?"</template>
+        <template>
+            <think><set name="loop">true</set></think>
+            It looks like I didn't understand that. Please ask about specific job roles or general career guidance. For example, you could ask "Tell me about Data Scientist" or "What jobs can I get with a computer science degree?"
+            <condition name="loop" value="true">
+                I'm here to help! Please clarify or ask about a specific role.
+                <think><set name="loop">false</set></think>
+            </condition>
+        </template>
     </category>
 </aiml>
